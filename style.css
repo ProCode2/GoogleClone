@@ -1,0 +1,156 @@
+/* unrefactored css that only I can understand for now */
+
+/* global thingy */
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration:none;
+  
+}
+li{
+  list-style: none;
+  display: inline-block;
+  padding:1.4vw;
+}
+
+/* yo! navbar should loke dope*/
+
+nav{
+  
+  width:100%;
+  top:0;
+  font-size: 15px;
+  display:inline-block;
+}
+
+/* this is a pain!!! an image in between nav links */
+.app-icon{
+  position: relative;
+  width: 29px;
+  height:28px;
+  display:inline-block;
+  vertical-align: middle;
+}
+/* hamdled that like a Proooooo */
+
+/* for the anchors */
+nav ul li a{
+  color:black;
+}
+
+/* for the links that go to the left */
+.nav-left{
+  margin:0 10px;
+  float:left;
+  padding: 5px 0;
+ 
+ 
+}
+
+/* for the links that go to the right */
+.nav-right{
+  float:right;
+  margin:0 10px;
+  padding: 5px 0;
+}
+
+/* sign in button, another painnnnn */
+.sign-in{
+ background:#2979ff;
+ color:white;
+ padding:4px;
+ font-size: 10px;
+ border-style: none;
+ border-radius: 3.2px;
+ width: 59.7px;
+ font-size: 12.3px;
+ font-weight: bold;
+ height:25px;
+}
+
+/*  main google thingy */
+.main-container{
+  padding-top:200px;
+  display:block;
+  width:60%;
+  height:80%;
+  margin-left:auto;
+  margin-right:auto;
+  min-width:300px;
+}
+
+/*  the goooogle image */
+.google-img{
+  width:45%;
+  height:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*   search input */
+.search-input{
+  margin: 20px auto;
+  display:block;
+  width:80%;
+  height:37px;
+  border:0.89px solid #cfd8dc;
+  border-radius: 39px;
+  outline:none;
+  min-width:100%;
+}
+
+/* search input hoverrrrrrrr */
+.search-input:hover{
+  box-shadow: 0 0 7.5px #e0e0e0;
+}
+
+/* the two weired buttons */
+.btns{
+  text-align: center;
+} 
+
+.search-btn{
+  background: #f5f5f5;
+  padding:6.8px;
+  margin:6px;
+  outline-color: #2979ff;
+  border:0;
+  border-radius:5.239px;
+  color: #424242;
+}
+
+/* when you really focus on the search button */
+.search-btn:focus{
+  box-shadow:0 0 3px grey;
+}
+
+/* wait what? footer navbar is a thing? */
+.footer-nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#f5f5f5;
+  justify-content: space-between;
+}
+
+.footer-nav ul li a{
+  color: #424242;
+}
+
+.footer-nav-left{
+  float:left;
+  padding:0.79em 0.1em;
+  font-size: 1.68vw;
+}
+
+.footer-nav-right{
+  float:right;
+  padding:0.79em 0.2em;
+  font-size: 1.68vw;
+}
+
+/* Game Over CSS-1  YOU-0 */
